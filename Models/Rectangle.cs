@@ -12,5 +12,11 @@
             Area = length * width;
             Perimeter = 2 * (length + width);
         }
+
+        //SRP Violation => moved to RectangleService
+        public static IEnumerable<Rectangle> IncreaseAreaByTenPercent(IEnumerable<Rectangle> rectangles)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
