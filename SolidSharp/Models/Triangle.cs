@@ -11,6 +11,7 @@
             Side1 = side1;
             Side2 = side2;
             Side3 = side3;
+            Sides = 3;
             CalculateArea();
             CalculatePerimeter();
         }

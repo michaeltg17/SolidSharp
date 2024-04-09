@@ -1,6 +1,6 @@
 ﻿namespace SolidSharp.Models
 {
-    internal class MutableRectangle : Shape
+    public class MutableRectangle : Shape
     {
         double length;
         public virtual double Length

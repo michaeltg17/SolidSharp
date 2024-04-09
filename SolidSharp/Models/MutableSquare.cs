@@ -1,6 +1,6 @@
 ﻿namespace SolidSharp.Models
 {
-    internal class MutableSquare(double sideLength) : MutableRectangle(sideLength, sideLength)
+    public class MutableSquare(double sideLength) : MutableRectangle(sideLength, sideLength)
     {
         double length;
         public override double Length

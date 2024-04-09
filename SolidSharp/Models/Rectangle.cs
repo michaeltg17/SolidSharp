@@ -9,6 +9,7 @@
         {
             Length = length;
             Width = width;
+            Sides = 4;
             Area = length * width;
             Perimeter = 2 * (length + width);
         }

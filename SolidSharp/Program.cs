@@ -21,16 +21,5 @@ namespace SolidSharp
 
             RectangleService.IncreaseAreaByTenPercent([square]);
         }
-
-        static void LSPViolation()
-        {
-            MutableRectangle mutableRectangle = new MutableSquare(5);
-
-            mutableRectangle.Length = 15;
-            mutableRectangle.Width = 10;
-
-            var expectedArea = 150;
-            mutableRectangle.Area.Should().Be(expectedArea);
-        }
     }
 }
