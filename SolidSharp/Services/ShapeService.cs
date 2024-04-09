@@ -1,11 +1,11 @@
 ﻿using SolidSharp.Models;
 
-namespace SolidSharp
+namespace SolidSharp.Services
 {
-    internal static class ShapeService
+    internal class ShapeService : IShapeService
     {
         //OCP Violation - New shape types require method modifications. Next method is the correct one.
-        public static double SumArea(IEnumerable<object> shapes)
+        public double SumArea(IEnumerable<object> shapes)
         {
             return shapes.Sum(shape =>
             {
@@ -15,6 +15,7 @@ namespace SolidSharp
             });
         }
 
-        public static double SumArea(IEnumerable<Shape> shapes) => shapes.Sum(s => s.Area);
+        public double SumArea(IEnumerable<Shape> shapes) => shapes.Sum(s => s.Area);
+        public double SumPerimeter(IEnumerable<Shape> shapes) => shapes.Sum(s => s.Perimeter);
     }
 }

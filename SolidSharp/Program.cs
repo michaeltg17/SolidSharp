@@ -1,6 +1,4 @@
-﻿using SolidSharp.Models;
-
-namespace SolidSharp
+﻿namespace SolidSharp
 {
     internal class Program
     {
@@ -12,14 +10,6 @@ namespace SolidSharp
             //LSP Violation (Liskov substitution principle)
             //ISP Violation (Interface segregation principle)
             //DIP Violation (Dependency inversion principle)
-
-            var rectangle = new Rectangle(2, 4);
-            var circle = new Circle(5);
-            var square = new Square(4);
-
-            var mutableRectangle = new MutableRectangle(2, 4);
-
-            RectangleService.IncreaseAreaByTenPercent([square]);
         }
     }
 }
