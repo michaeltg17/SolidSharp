@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34616.47
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolidSharp", "SolidSharp.csproj", "{6951E862-9212-4C68-B2A1-CA3E51EB44ED}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolidSharp", "SolidSharp\SolidSharp.csproj", "{6951E862-9212-4C68-B2A1-CA3E51EB44ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolidSharp.Tests", "SolidSharp.Tests\SolidSharp.Tests.csproj", "{67CA1F17-1147-4A3D-9834-1F41693C32D8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{6951E862-9212-4C68-B2A1-CA3E51EB44ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6951E862-9212-4C68-B2A1-CA3E51EB44ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6951E862-9212-4C68-B2A1-CA3E51EB44ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67CA1F17-1147-4A3D-9834-1F41693C32D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67CA1F17-1147-4A3D-9834-1F41693C32D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67CA1F17-1147-4A3D-9834-1F41693C32D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67CA1F17-1147-4A3D-9834-1F41693C32D8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

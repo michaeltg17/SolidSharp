@@ -17,8 +17,8 @@
 
         void CalculateArea()
         {
-            double s = (Side1 + Side2 + Side3) / 2;
-            Area = Math.Sqrt(s * (s - Side1) * (s - Side2) * (s - Side3));
+            var semiperimeter = (Side1 + Side2 + Side3) / 2;
+            Area = Math.Sqrt(semiperimeter * (semiperimeter - Side1) * (semiperimeter - Side2) * (semiperimeter - Side3));
         }
 
         void CalculatePerimeter()
