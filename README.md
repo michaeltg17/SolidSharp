@@ -1,3 +1,3 @@
 # SolidSharp
 
-A showcase of SOLID principles applied in .NET
+A showcase of SOLID principles applied in .NET.
